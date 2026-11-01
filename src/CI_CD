@@ -1,0 +1,15 @@
+Run flake8
+  flake8 server/djangoapp --ignore=E501,E203
+  flake8 server/djangoproj --ignore=E501,E203
+  shell: /usr/bin/bash -e {0}
+  env:
+    pythonLocation: /opt/hostedtoolcache/Python/3.10.14/x64
+##[group]Run flake8
+flake8 server/djangoapp --ignore=E501,E203
+flake8 server/djangoproj --ignore=E501,E203
+##[endgroup]
+Process completed with exit code 0.
+
+Post Run actions/setup-python@v4
+Post Run actions/checkout@v3
+Complete job
