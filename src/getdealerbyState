@@ -1,0 +1,28 @@
+curl -X GET http://localhost:3030/fetchDealers/Kansas
+
+[
+  {
+    "id": 3,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "100 Kansas Ave",
+    "zip": "66603",
+    "lat": "39.04",
+    "long": "-95.67",
+    "short_name": "Sunflower",
+    "full_name": "Sunflower Motors Kansas"
+  },
+  {
+    "id": 4,
+    "city": "Wichita",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "452 Kellogg St",
+    "zip": "67202",
+    "lat": "37.68",
+    "long": "-97.33",
+    "short_name": "Midwest",
+    "full_name": "Midwest Auto Wichita"
+  }
+]
