@@ -1,0 +1,40 @@
+curl -X GET http://localhost:3030/fetchDealers
+
+[
+  {
+    "id": 1,
+    "city": "El Paso",
+    "state": "Texas",
+    "st": "TX",
+    "address": "322 American Drive",
+    "zip": "79978",
+    "lat": "31.745",
+    "long": "-106.49",
+    "short_name": "Holdlamis",
+    "full_name": "Holdlamis Dealership"
+  },
+  {
+    "id": 2,
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "st": "MN",
+    "address": "11409 Norway Maple Crossing",
+    "zip": "55444",
+    "lat": "44.98",
+    "long": "-93.26",
+    "short_name": "Temp",
+    "full_name": "Temp Dealership"
+  },
+  {
+    "id": 3,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "100 Kansas Ave",
+    "zip": "66603",
+    "lat": "39.04",
+    "long": "-95.67",
+    "short_name": "Sunflower",
+    "full_name": "Sunflower Motors Kansas"
+  }
+]
