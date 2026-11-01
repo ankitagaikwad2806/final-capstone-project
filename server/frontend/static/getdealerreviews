@@ -1,0 +1,26 @@
+curl -X GET http://localhost:3030/fetchReviews/dealer/1
+
+[
+  {
+    "id": 1,
+    "name": "Berkly Moncherry",
+    "dealership": 1,
+    "review": "Total grid-enabled service-desk! Great experience purchasing my sedan.",
+    "purchase": true,
+    "purchase_date": "02/16/2021",
+    "car_make": "Audi",
+    "car_model": "A6",
+    "car_year": 2010
+  },
+  {
+    "id": 2,
+    "name": "Gwenora Larret",
+    "dealership": 1,
+    "review": "Friendly sales team and transparent paperwork.",
+    "purchase": true,
+    "purchase_date": "03/17/2021",
+    "car_make": "Toyota",
+    "car_model": "Camry",
+    "car_year": 2019
+  }
+]
